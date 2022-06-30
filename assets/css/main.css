@@ -12,7 +12,7 @@
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
+  --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Inter", sans-serif;
 }
 
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #ec2727;
+  color: #fb00ff;
   text-decoration: none;
 }
 
@@ -177,7 +177,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background: #000000;
   color: #fff;
 }
 
@@ -300,7 +300,7 @@ section {
 .header .logo h1 {
   font-size: 28px;
   font-weight: 700;
-  color: #000;
+  color: rgb(255, 255, 255);
   margin: 0;
   font-family: var(--font-secondary);
 }
@@ -323,7 +323,7 @@ section {
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
   color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  background: black;
 }
 
 section {
@@ -555,7 +555,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: var(--color-secondary);
+    color: var(--color-primary);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -1556,7 +1556,7 @@ section {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: white;
   font-family: var(--font-primary);
 }
 
@@ -1565,7 +1565,7 @@ section {
 }
 
 .hero p {
-  color: #4f4f5a;
+  color: #ffffff;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1580,12 +1580,11 @@ section {
   transition: 0.5s;
   color: #fff;
   background: var(--color-primary);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+  background: black;
+  box-shadow: 0 0 28px rgba(255, 255, 255, 0.45);
 }
 
 .hero .btn-watch-video {
@@ -1621,6 +1620,10 @@ section {
   .hero .btn-watch-video {
     font-size: 14px;
   }
+}
+
+#hero p {
+  font-size: 3.125rem;
 }
 
 /*--------------------------------------------------------------
@@ -1847,3 +1850,10 @@ section {
     transform: scale(1.1);
   }
 }
+
+/* header effects */
+
+.toggle-color{
+  color: white;
+}
+
