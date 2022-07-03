@@ -839,6 +839,10 @@ section {
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
+#stats-counter {
+  margin-bottom: 100px;
+}
+
 .stats-counter {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/coding.jpg") center center;
   background-size: cover;
@@ -871,6 +875,16 @@ section {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
 }
+/*--------------------------------------------------------------
+# technologies section
+--------------------------------------------------------------*/
+/* #technologies {
+  margin-top: 100px;
+} */
+.technologies-img {
+    max-height: 200px;
+}
+
 
 /*--------------------------------------------------------------
 # Menu Section
